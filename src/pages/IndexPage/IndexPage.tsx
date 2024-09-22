@@ -25,7 +25,10 @@ export const IndexPage: FC = () => {
         header='Application Launch Data'
         footer='These pages help developer to learn more about current launch information'
       >
-        <Link to='/init-data'>
+        <Link to='/generate'>
+          <Cell subtitle='Generate anything with AI'>Generate Images</Cell>
+        </Link>
+        {/* <Link to='/init-data'>
           <Cell subtitle='User data, chat information, technical data'>Init Data</Cell>
         </Link>
         <Link to='/launch-params'>
@@ -33,7 +36,7 @@ export const IndexPage: FC = () => {
         </Link>
         <Link to='/theme-params'>
           <Cell subtitle='Telegram application palette information'>Theme Parameters</Cell>
-        </Link>
+        </Link> */}
       </Section>
     </List>
   );

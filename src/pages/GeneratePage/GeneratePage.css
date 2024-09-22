@@ -1,0 +1,60 @@
+.generate-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .result {
+    width: 512px;
+    height: 640px;
+    margin-bottom: 20px;
+  }
+  
+  .result img {
+    width: 512px;
+    height: 640px;
+    border-radius: 8px;
+  }
+  
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .loading-image {
+    width: 512px;
+    height: 640px;
+  }
+  
+  .input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .prompt-input {
+    width: 100% !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+  }
+  
+  .generate-button {
+    width: 100% !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    border-radius: 25px !important; /* This makes the button more rounded */
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
